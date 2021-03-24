@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  maven: grubtech/maven@dev:alpha
+  maven: circleci/maven@1.1.1
 
 workflows:
   version: 2
