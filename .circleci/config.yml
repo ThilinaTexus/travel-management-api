@@ -4,9 +4,6 @@ orbs:
   maven: circleci/maven@1.1.1
 
 workflows:
-  version: 2
-
-  build-and-publish:
+  maven_test:
     jobs:
-      - maven/build-and-publish:
-          context: module-build-and-publish
+      - maven/test
