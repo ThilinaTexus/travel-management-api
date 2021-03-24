@@ -6,9 +6,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>travel-backend</artifactId>
-    <groupId>com.travel.platform</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.0.RELEASE</version>
+    <relativePath/>
   </parent>
 
   <artifactId>travel-management-api</artifactId>
