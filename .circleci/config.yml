@@ -9,3 +9,8 @@ jobs:
           command: |
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
+      - run:
+          name: The Secound Step
+          command: |
+            echo 'Hello World 2!'
+            echo 'This is the delivery pipeline 2'
